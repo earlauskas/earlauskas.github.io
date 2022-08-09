@@ -25,16 +25,7 @@
   background-color: #04AA6D;
   color: white;
 }
-   <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      PacMan Game
-    </div>
-    <div class="col-sm">
-      Eye Activity
-    </div>
-    <div class="col-sm">
-      Bus Tracking Activity
-    </div>
-  </div>
-</div>
+.container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+  
