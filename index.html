@@ -1,6 +1,21 @@
 <html lang="en">
      <head>
     <link href="./styles.css" rel="stylesheet" />
+    <title>Emily's Portfolio</title>
+    <style>
+    .grid{
+    display:grid;
+    grid-template-columns: 33% 33% 34%;
+    }
+    .grid >div{
+    background:#eee;
+    padding:1em;
+    }
+    
+    .grid > div:neth-child(odd){
+    background:#ddd;
+    }
+    
    </head>
      <div class="topnav">
   <a class="active" href="#home">Home</a>
@@ -12,18 +27,15 @@
     <img src="thisone.jpg">
     <h2> Hi! I'm Emily and this is my portfolio. 
         This is where I include projects for my all women's professional coding cohort at MIT. </h2>
-     <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      PacMan Game
-    </div>
-    <div class="col-sm">
-      Eye Activity
-    </div>
-    <div class="col-sm">
-      Bus Tracking Activity
-    </div>
-  </div>
-</div>
+   <div class="grid">
+   <div>
+   PacMan Activity
+   </div>
+   <div>
+   Eyes Activity
+   </div>
+   <div>
+   Bus Activity
+   </div>
          <script src="./mapanimation.js"></script>
 </html>
