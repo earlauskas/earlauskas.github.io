@@ -1,23 +1,5 @@
 styles
-/*Change what the Major Headings look like */
-h1 {
-    color: #d54d7b;  
-    font-size: 165px; 
-    line-height: 160px; 
-    font-weight: normal; 
-    margin-bottom: 0px; 
-    margin-top: 40px; 
-    text-align: center; 
-    text-shadow: 0 1px 1px #fff;
- }
- /*Change what the Minor Headings look like */
-h2 {
-   
- }
- /*Change what the Paragraph Text look like */
- p {
-    
-  }
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -45,17 +27,3 @@ h2 {
     background-color: #04AA6D;
     color: white;
   }
- 
-  /*Style the grid*/
-  .grid{
-    display:grid;
-    grid-template-columns: 33% 33% 34%;
-    }
-    .grid >div{
-    background:#eee;
-    padding:1em;
-    }
-    /*makes every other grid box a differnt color*/
-    .grid > div:neth-child(odd){
-    background:#ddd;
-    }
